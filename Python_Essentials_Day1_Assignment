@@ -1,1 +1,38 @@
+Q.1 What is Python?What are the ways to install Python in your PC?
+Ans.Python is a popular programming language. It was created by Guido van Rossum, and released in 1991 and become the popular language near about 2006
 
+It is used for:
+
+web development (server-side),
+software development,
+mathematics,
+system scripting. 
+
+Advantages of python are:
+
+Easy to learn.
+It involve less code.
+Syntax is easier as compare to other programming languages.
+Utilized by major technological companies.
+It has huge amount of open source libraries.
+
+Ways to install Python in PC :
+1. From Python Official site :
+Visit www.python.org
+Click Download option
+There are list of Python releases by version number , Choose the version which you want to install .
+Install it according to your Pc's OS
+
+2. From Anaconda Official Site :
+Visit www.anaconda.com
+Click on Products Dropdown Menu and Select Individual Edition
+Click Download option and Choose your appropriate OS
+Install it as per the PC's OS
+
+
+Q.2 What are code environments and its types?
+Ans. Code environment is the platform where we can write the code and compiles the code and check the output.
+There are 3 types of code environment:
+1.Text editors- ex. VS code , atom
+2.Full IDEs- ex. Pyhcharm,Spyder
+3. Notebooks-ex. Jypyter ,microsoft notebooks
