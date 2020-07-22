@@ -1,5 +1,62 @@
 # Assignment of Day-02
 
+
+
+1 . BASIC PYTHON SYNTAX :
+
+Back slash
+Triple quotes
+String inside the quotes
+Escape sequence of string
+Formatted output.
+2 . PYTHON VARIABLE : 
+
+Variable means linking of the data to a name.
+Variable refers to the memory location that contains the data.
+        For example ,a=10. 
+
+RULES :
+
+Variable cannot start with number. 
+            Example , 10a (x)
+
+ Variable can lower or upper case, numbers, underscore.   
+             Example , a=10, A=10, -=30
+
+3.PYTHON OPERATORS :
+
+a ) Arithmetic operators
+
+   **, *, /, %, +, -, //
+
+b) Comparision  operators
+
+    ==, <, >, <=, >=, !=
+
+c) Assignment operators 
+
+    =, +=, -=, *=, /=, **=
+
+d) Bitwise operators
+
+   |, &, ~, ^, <<, >> 
+
+e) Logical operators
+
+   AND, OR, NOT
+
+f) Membership operators
+
+    in, not in
+
+g) Identity operators
+
+    is, is not
+
+h) operator precedence 
+
+  :=,lambda, if -else, or, and, not
+
 1.Variables: Syntax: Variable Name = value
 
 number = 1947
