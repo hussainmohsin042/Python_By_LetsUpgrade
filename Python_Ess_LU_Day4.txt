@@ -1,0 +1,76 @@
+#Assignment Day 4:
+
+Q1.Find the all occurence of substring in the any string:
+
+Code:
+
+Sentence=input("Enter The Sentence: ")
+word=input("Enter the word that you are looking for : ").lower()
+
+if word not in Sentence:
+    print("Error, '"+word+"' is not in this sentence. ")
+else:
+    for x in range(len(Sentence)-1):
+        if (Sentence[x]+Sentence[x+1])==word:
+            print(x+1)
+            x=x+1
+
+
+Enter The Sentence: what we think we become,we are all python programmers
+Enter the word that you are looking for : we
+
+OUTPUT:
+
+6
+15
+25
+
+
+Q2.islower() and isupper() with different kind of string?
+
+Code:
+1.str="WHAT WE THINK WE BECOME; WE ARE PYTHON PROGRAMMERS."
+if str.islower():
+    print(True)
+
+Output is :
+
+     True
+
+2.str="WHAT WE think WE BECOME; WE ARE PYTHON PROGRAMMERS."
+if str.isupper():
+    print(True)
+else:
+    print(False)
+
+Output:
+
+False
+
+3.str1="what we think we become; we are python programmers."
+
+Code:
+
+if str1.islower():
+    print(True)
+else:
+    print(False)
+
+Output:
+
+True
+
+4.str1="what WE think we become; we are python programmers."
+
+if str1.islower():
+    print(True)
+else:
+    print(False)
+
+Output:
+
+False
+
+
+
+    
