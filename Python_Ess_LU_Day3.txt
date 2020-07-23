@@ -1,0 +1,74 @@
+Assignment Day 3
+
+Q1.Sum of 'n' numbers using While Loop:
+
+Code:
+
+a= eval(input("Enter the Number"))
+
+if a < 0:
+    print("Enter a positive number")
+else:
+    sum = 0
+   # use while loop to iterate until zero
+while(a > 0):
+    sum += a
+    a -= 1
+print("The sum is", sum)
+
+
+
+Entered Number is 10 which is positive
+
+
+Output:
+
+The sum is 55.
+
+Q2. Enter a number and check if it is prime or not?
+
+Code:
+
+# Program to check if a number is prime or not
+
+# prime numbers are greater than 1
+
+num=eval(input("Enter a Number"))
+
+if num > 1:
+   # check for factors
+   for i in range(2,num):
+    if (num % i) == 0:
+           print(num,"is not a prime number")
+           break
+   else:
+       print(num,"is a prime number")
+       
+# if input number is less than
+# or equal to 1, it is not prime
+else:
+   print(num,"is not a prime number")
+
+
+
+
+
+
+  Output:
+
+Entered Number is:9
+
+9 is not a prime number
+
+Entered Number is 3
+
+3 is a prime number
+
+
+
+Entered Number is:
+
+
+
+
+Output:
