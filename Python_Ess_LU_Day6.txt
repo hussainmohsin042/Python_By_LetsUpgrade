@@ -1,0 +1,21 @@
+#Assignment Day 6
+
+
+
+PROGRAM IN PYTHON TO CONVERT TWO LISTS INTO DICTIONARY  :
+list1=[1,2,3,4,5,7,8]
+
+list2=["a","b","c","d",]
+
+d=[ ]
+
+for i in range(len(list2)):    
+
+ list1.append(list2[i])
+
+for i in list1:    
+
+d[i]=i print(d)
+
+OUTPUT :
+[1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 7: 7, 8: 8, 'a': 'a', 'b': 'b', 'c': 'c', 'd': 'd' ]
